@@ -1,3 +1,6 @@
+#Created by Alonso Angulo Murillo on 20/04/16.
+#Copyright © 2016 Alonso Angulo Murillo. All rights reserved.
+
 import RPi.GPIO as GPIO		#inicializo los pines GPIO de la RPi
 import time			#inicializo los timers y contadores de la RPi
 import pygame			#inicializo la librería para la lectura de los botones del control del PS3
