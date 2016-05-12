@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+double producto(double lista[], double lista1[], int n){
+    
+    double result=0;
+    
+    for (int i = 0; i < n; i++)
+        
+    {
+        result=result+(lista[i]*lista1[i]);
+    }
+    
+    return result;
+}
+
+int main (){
+    
+    int n;
+    
+    cout<<"¿Cuantos numeros quieres usar?"<<endl;
+    cin>>n;
+    
+    double result, lista[n], lista1[n];
+    for (int i = 0; i < n; i++){
+        cout<<"Dame "<<i+1<<" valor: ";
+        cin>>lista[i];
+    }
+    
+    for (int i = 0; i < n; i++){
+        cout<<"Dame "<<i+1<<" el valor de la segunda lista: ";
+        cin>>lista1[i];
+    }
+    
+    result=producto(lista,lista1,n);
+    cout<<"El resultado es: "<<result;
+    
+    return 0;
