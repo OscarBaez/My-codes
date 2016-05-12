@@ -11,7 +11,7 @@ int find_word(string palabra, string tipo){
             if(line == palabra){
                 cont++;
             }
-            //      cout << line << endl;
+           
         }
         myfile.close();
     }
